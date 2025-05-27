@@ -4,11 +4,11 @@ const nextConfig = {
       return [
           {
               source: '/api/pokemon',
-              destination: '<PLEASE_REPLACE_IT_WITH_YOUR_BACKEND_URL>/Prod/pokemon',
+              destination: '<https://44k2n93ea9.execute-api.eu-west-2.amazonaws.com/Prod/pokemon>/Prod/pokemon',
           },
           {
               source: '/api/pokemon/:id',
-              destination: '<PLEASE_REPLACE_IT_WITH_YOUR_BACKEND_URL>/Prod/pokemon/:id',
+              destination: '<https://44k2n93ea9.execute-api.eu-west-2.amazonaws.com/Prod/pokemon>/Prod/pokemon/:id',
           },
       ];
   }
