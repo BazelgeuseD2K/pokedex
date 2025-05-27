@@ -11,7 +11,7 @@ import React from 'react';
 
 // This type is used to get the pokemon id from the url path
 type Params = {
-  params: Promise<{ pokemon_id: string }>
+  params: Promise<{ pokemon_id: number  }>
 }
 
 
