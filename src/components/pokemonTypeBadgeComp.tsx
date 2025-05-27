@@ -6,7 +6,7 @@ import React from "react";
 
 
 interface PokemonCardCompProps {
-   pokemonTypes: String[];
+   pokemonTypes: string[];
 }
 
 
