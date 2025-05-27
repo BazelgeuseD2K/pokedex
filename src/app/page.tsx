@@ -4,6 +4,7 @@ import PokeNavBar from "@/components/pokeNavBarComp";
 import PokemonCard from "@/model/pokemonCard";
 import { useEffect, useState } from "react";
 import { Container, Row, Spinner } from "react-bootstrap";
+import React from "react";
 
 
 export default function Home() {

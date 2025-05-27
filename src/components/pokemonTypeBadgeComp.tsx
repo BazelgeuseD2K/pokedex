@@ -2,6 +2,7 @@
 
 
 import { Badge } from "react-bootstrap";
+import React from "react";
 
 
 interface PokemonCardCompProps {
